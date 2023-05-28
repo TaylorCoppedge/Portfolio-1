@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: auto;
+}
+body {
+    background-image: url("Background.jpg");
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+h1 {
+    height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffb6c1;
+}
+
+#sectionOne {
+    float: left;
+}
+
+#sectionTwo {
+    width: 300px;
+    float: right;
+}
+
+#sectionThree{
+    margin-left: 500px;
+    margin-right: 1000px;
+    width: 700px;
+}
+
+#second {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links {
+    padding: 15px;
+    display: flex;
+    width: fit;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#Me {
+    width: 300px;
+    padding: 15px;
+}
+
+#list {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 275px;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: start;
+}
+
+h2 {
+    margin: 75 25 25 15px;
+    font-size: 60px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+#GR {
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive; 
+    text-align: left;
+}
+#load {
+    margin-bottom: 145px;
+}
+
+.Repos {
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive; 
+}
+
+.aboutme {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer {
+    margin: auto;
+    display: flex;
+    padding: 15px;
+    position:fixed;
+    bottom: 0;
+}
+#footer {
+    text-align: left;
+    font-size: 25px;
+    justify-content: baseline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    background-color: #ffb6c1;
+    width: 100%;
+}
+.email{
+    height: 115px;
+    justify-content: center;
+}
+.btn {
+    background-color: #ffb6c1;
+    font-size: 30px;
+}
+
+
+
+  
